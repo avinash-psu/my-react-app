@@ -1,0 +1,48 @@
+.task-manager {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .add-task {
+    margin-bottom: 20px;
+  }
+  
+  .add-task input,
+  .add-task select,
+  .add-task button {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .task-item.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
+  .category {
+    font-size: 0.8em;
+    color: #666;
+  }
+  
+  .priority {
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  
+  .priority.low { color: green; }
+  .priority.medium { color: orange; }
+  .priority.high { color: red; }
+  
